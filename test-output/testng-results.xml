@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16629" started-at="2019-07-22T08:57:09Z" finished-at="2019-07-22T08:57:26Z">
+  <suite name="Default suite" duration-ms="10292" started-at="2019-07-25T11:21:03Z" finished-at="2019-07-25T11:21:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16629" started-at="2019-07-22T08:57:09Z" finished-at="2019-07-22T08:57:26Z">
+    <test name="Default test" duration-ms="10292" started-at="2019-07-25T11:21:03Z" finished-at="2019-07-25T11:21:13Z">
       <class name="tests.Gmail_login_test">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.Gmail_login_test@55f3ddb1]" name="initialize" is-config="true" duration-ms="32068" started-at="2019-07-22T08:56:37Z" finished-at="2019-07-22T08:57:09Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.Gmail_login_test@5b275dab]" name="initialize" is-config="true" duration-ms="8583" started-at="2019-07-25T11:20:54Z" finished-at="2019-07-25T11:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.Gmail_login_test@55f3ddb1]" name="init" duration-ms="16043" started-at="2019-07-22T08:57:10Z" finished-at="2019-07-22T08:57:26Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.Gmail_login_test@5b275dab]" name="init" duration-ms="10258" started-at="2019-07-25T11:21:03Z" finished-at="2019-07-25T11:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->

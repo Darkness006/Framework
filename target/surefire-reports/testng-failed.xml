@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Everjobs Suite]">
+  <test thread-count="5" verbose="0" name="Page Object Model Project(failed)">
+    <classes>
+      <class name="tests.Gmail_login_test">
+        <methods>
+          <include name="init"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- tests.Gmail_login_test -->
+    </classes>
+  </test> <!-- Page Object Model Project(failed) -->
+</suite> <!-- Failed suite [Everjobs Suite] -->
