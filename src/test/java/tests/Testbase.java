@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeSuite;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Testbase{
 
 	
@@ -15,7 +17,7 @@ public class Testbase{
 	@BeforeSuite
 	public void initialize()throws IOException 
 	{
-		System.setProperty("webdriver.Chrome.driver","C:\\Users\\Sethuru\\eclipse-workspace\\Regular\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
 		 
 		 driver.manage().window().maximize();

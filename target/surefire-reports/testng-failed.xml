@@ -5,6 +5,7 @@
     <classes>
       <class name="tests.Gmail_login_test">
         <methods>
+          <include name="login"/>
           <include name="init"/>
           <include name="initialize"/>
         </methods>

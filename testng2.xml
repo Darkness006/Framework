@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="dynamic tables">
+ <classes>
+ <class name="practise_tests.practise_Testbase" /> 
+ <class name="practise_tests.dynamic_table_test" /> 
+ </classes> 
+ </test> 
+</suite> <!-- Suite -->

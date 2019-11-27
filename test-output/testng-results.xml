@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10292" started-at="2019-07-25T11:21:03Z" finished-at="2019-07-25T11:21:13Z">
+  <suite name="Suite" duration-ms="12" started-at="2019-11-26T11:36:04Z" finished-at="2019-11-26T11:36:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10292" started-at="2019-07-25T11:21:03Z" finished-at="2019-07-25T11:21:13Z">
-      <class name="tests.Gmail_login_test">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.Gmail_login_test@5b275dab]" name="initialize" is-config="true" duration-ms="8583" started-at="2019-07-25T11:20:54Z" finished-at="2019-07-25T11:21:03Z">
+    <test name="ParallelExecution_chrome" duration-ms="9" started-at="2019-11-26T11:36:04Z" finished-at="2019-11-26T11:36:04Z">
+    </test> <!-- ParallelExecution_chrome -->
+    <test name="ParallelExecution_firefox" duration-ms="12" started-at="2019-11-26T11:36:04Z" finished-at="2019-11-26T11:36:04Z">
+      <class name="practise_tests.practise_Testbase">
+        <test-method status="FAIL" signature="initialize(java.lang.String)[pri:0, instance:practise_tests.practise_Testbase@3c0ecd4b]" name="initialize" is-config="true" duration-ms="0" started-at="2019-11-26T11:36:04Z" finished-at="2019-11-26T11:36:04Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeSuite on method initialize but has not been marked @Optional or defined
+in C:\Users\Sethuru\eclipse-workspace\Regular\testng3.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeSuite on method initialize but has not been marked @Optional or defined
+in C:\Users\Sethuru\eclipse-workspace\Regular\testng3.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.Gmail_login_test@5b275dab]" name="init" duration-ms="10258" started-at="2019-07-25T11:21:03Z" finished-at="2019-07-25T11:21:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-      </class> <!-- tests.Gmail_login_test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- practise_tests.practise_Testbase -->
+    </test> <!-- ParallelExecution_firefox -->
+  </suite> <!-- Suite -->
 </testng-results>
